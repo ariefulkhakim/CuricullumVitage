@@ -78,7 +78,7 @@
 				$(this).delay(6000).countTo({
 					from: 0,
 					to: counter,
-					speed: 3000,// Stats Counter Speed
+					speed: 4000,// Stats Counter Speed
 					refreshInterval: 50,
 				});
 			});
@@ -89,7 +89,7 @@
 		/* ---------------------------------------------- */
 
 		wow = new WOW({
-			mobile: false
+			mobile: true
 		});
 		wow.init();
 
