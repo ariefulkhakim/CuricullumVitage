@@ -858,22 +858,49 @@ div.panel.show {
 .cbp-l-inline-details {
   margin-bottom: 15px;
   font: 13px/22px "Open Sans", sans-serif; }
-
 .cbp-social-fb path {
-  fill: #2d323a; 
+    fill: #415C9B;
 }
-
 .cbp-social-twitter path {
-  fill: #2d323a; 
+  fill: #55acee; 
 }
 
 .cbp-social-googleplus path {
-  fill: #2d323a; 
+  fill: #E57371; 
 }
 
 .cbp-social-pinterest path {
-  fill: #2d323a; 
+  fill: #cb2027; 
 }
+.cbp-popup-singlePageInline .cbp-popup-close {
+    background: url("../images/cbp-sprite.png") no-repeat scroll -92px 0 transparent;
+    height: 40px;
+    width: 40px;
+    right: 20px;
+    top: 30px;
+}
+.cbp-slider .cbp-nav-next:after, .cbp-slider .cbp-nav-prev:after {
+    background: url("../images/cbp-sprite.png") no-repeat;
+    width: 44px;
+    height: 44px;
+}
+.cbp-slider .cbp-nav-next:after {
+    background-position: -46px -92px;
+}
+
+
+
+.cbp-slider .cbp-nav-next, .cbp-slider .cbp-nav-prev {
+    background: transparent;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 44px;
+    height: 44px;
+}
+
 
 /*==================*/
 /*Contact Style*/
