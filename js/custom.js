@@ -34,9 +34,9 @@
 		 * Background image
 		/* ---------------------------------------------- */
 			$('#intro').backstretch([
-						'images/bg2.jpg',
-						'images/bg4.jpg',
-						'images/bg1.jpg'
+						'images/baru.jpg',
+						'images/baru1.jpg',
+						'images/baru2.jpg'
 					], {duration: 3000, fade: 750});
 
 		/* ---------------------------------------------- /*
